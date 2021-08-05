@@ -1,0 +1,33 @@
+{
+    "name": "ARController",
+    "maps": [
+        {
+            "name": "ARTouchScreen",
+            "id": "7e5c637a-64db-4475-a8ed-f7ff03b9dd67",
+            "actions": [
+                {
+                    "name": "AddPortal",
+                    "type": "Value",
+                    "id": "2d1a4c2e-60cf-4211-b9a0-089e9cd4dee1",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d94928da-b13a-4f5e-a6cd-2513e682dc09",
+                    "path": "<Touchscreen>/primaryTouch/startPosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AddPortal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
